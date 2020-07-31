@@ -1,0 +1,41 @@
+body {
+  font-family: "MS Pゴシック" ;
+    background-image: url("_MG_3093.jpeg");
+    background-size: cover;
+}
+
+.outer{
+  text-align: center;
+}
+
+.inner{
+  border:2px solid #ffffff;
+  display:inline-block;
+  margin-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1{
+  font-size:30px;
+  color:#ffffff;
+}
+
+p{
+  font-size:18px;
+  color:#ffffff;
+}
+
+.contact-submit{
+  background-color:#034a70;
+  color:#ffffff;
+}
+
+input{
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+ font-size:18px;
+  border:2px solid #d2e1e9;
+}

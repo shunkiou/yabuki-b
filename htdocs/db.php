@@ -9,7 +9,7 @@ function h($var) {
   }
 }
 
-$dbServer = '127.0.0.1';
+$dbServer = 'mysql:host=https://github.com/yabukilab/yabuki-b;dbname=mydb.sql;charset=utf8';
 $dbUser = isset($_SERVER['MYSQL_USER'])     ? $_SERVER['MYSQL_USER']     : 'testuser';
 $dbPass = isset($_SERVER['MYSQL_PASSWORD']) ? $_SERVER['MYSQL_PASSWORD'] : 'pass';
 $dbName = isset($_SERVER['MYSQL_DB'])       ? $_SERVER['MYSQL_DB']       : 'mydb';

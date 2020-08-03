@@ -11,7 +11,8 @@ if (isset($_POST['username'], $_POST['password'])) {
   //一般ユーザ1（user1, pass1）
   //一般ユーザ2（user2, pass2）
   //管理者(admin,pass3）
-  if (($username == 'user' && $password == 'pass1')) {
+  if (($username == 'user' && $password == 'pass1')||
+  ($username == 'admin' && $password == 'pass3')) {
     session_regenerate_id();//セッションを作り直す．
     $_SESSION['username'] = $username; // ユーザ名を記憶する．
 

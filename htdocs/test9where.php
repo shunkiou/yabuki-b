@@ -37,6 +37,7 @@ echo '<tr>'
     <input type="hidden" name="name" value="<?=$name?>">
     <input type="radio" name="i" value="提出済み" required>提出済み
     <input type="radio" name="i" value="未提出">未提出
+    <input type="radio" name="a" value="再提出">再提出
 		<input type="submit" value="変更する">
 
 

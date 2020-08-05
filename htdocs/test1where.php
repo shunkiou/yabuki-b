@@ -6,6 +6,8 @@
     <title>第1回</title>
   </head>
   <body>
+  <div class="outer">
+      <div class="inner">
 <table border='1'>
   <caption>全データ</caption>
   <tr>
@@ -47,5 +49,7 @@ echo '<tr>'
 }?>
 </table>
 <p><a href="admin.php">前のページに戻る</a></p>
+</div>
+</div>
   </body>
 </html>

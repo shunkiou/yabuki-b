@@ -30,10 +30,12 @@ if (isset($_POST['username'], $_POST['password'])) {
 <html lang="ja">
 <head>
   <meta charset='utf-8' />
-  <link rel='stylesheet' href='style.css' />
+  <link rel='stylesheet' href='stylesheet.css' />
   <title>ログイン</title>
 </head>
 <body>
+<div class="outer">
+      <div class="inner">
   <?php echo $message;?>
   <form action="login.php" method="post">
     <ul style="list-style-type: none;">
@@ -42,5 +44,7 @@ if (isset($_POST['username'], $_POST['password'])) {
       <li><input type="submit" value="ログイン" /></li>
     </ul>
   </form>
+  </div>
+</div>
 </body>
 </html>

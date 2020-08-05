@@ -6,7 +6,8 @@
     <title>第4回</title>
   </head>
   <body>
-
+  <div class="outer">
+      <div class="inner">
 <?php
 # 送信されたデータの取得
 $idn = $_POST['id'];
@@ -43,5 +44,7 @@ $a     = h($row['d']);
     <?='</tr>';?>
 </table>
 <p><a href="test4where.php">前のページに戻る</a></p>
+  </div>
+</div>
   </body>
 </html>

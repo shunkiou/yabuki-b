@@ -6,6 +6,8 @@
     <title>第5回</title>
   </head>
   <body>
+  <div class="outer">
+      <div class="inner">
 <table border='1'>
   <caption>全データ</caption>
   <tr>
@@ -37,7 +39,6 @@ echo '<tr>'
     <input type="hidden" name="name" value="<?=$name?>">
     <input type="radio" name="e" value="提出済み" required>提出済み
     <input type="radio" name="e" value="未提出">未提出
-    <input type="radio" name="a" value="再提出">再提出
 		<input type="submit" value="変更する">
 
 
@@ -47,5 +48,7 @@ echo '<tr>'
 }?>
 </table>
 <p><a href="admin.php">前のページに戻る</a></p>
+</div>
+</div>
   </body>
 </html>

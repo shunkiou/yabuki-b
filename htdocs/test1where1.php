@@ -6,6 +6,8 @@
     <title>第1回</title>
   </head>
   <body>
+  <div class="outer">
+      <div class="inner">
 
 <?php
 # 送信されたデータの取得
@@ -43,5 +45,7 @@ $a     = h($row['a']);
     <?='</tr>';?>
 </table>
 <p><a href="test1where.php">前のページに戻る</a></p>
+</div>
+</div>
   </body>
 </html>

@@ -11,7 +11,11 @@ session_destroy(); // セッションを破棄する．
   <title>ログアウト</title>
 </head>
 <body>
+<div class="outer">
+      <div class="inner">
   <p>ログアウトしました．</p>
   <p><a href="login.php">ログインページへ</a></p>
+  </div>
+</div>
 </body>
 </html>
